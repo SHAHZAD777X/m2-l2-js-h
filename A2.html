@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="result1"></p>
+
+
+<script>
+
+class person{
+constructor(n) {
+   this.name=n;
+}
+static hello(){
+
+    return"Hello"
+}
+
+}
+    return "MY NAME IS"+this.name
+
+
+class Info extends Person
+{
+    constructor(name,city)
+{super(name);
+this.city=city;
+}
+show()
+{ return Person.hello() + this.name + "He is from" + this.city;
+ }
+}
+
+let obj= new Info("   IBRAHIM","DUBAI");
+document.getElementById("result1").innerHTML=ob1.show()
+
+ 
+
+</script>
+
+</body>
+</html>
